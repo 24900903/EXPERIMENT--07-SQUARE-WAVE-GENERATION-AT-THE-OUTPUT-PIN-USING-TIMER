@@ -92,7 +92,8 @@ Step14. click on debug and simulate using simulation as shown below
 
 
 ## STM 32 CUBE PROGRAM :
-```#include "main.h"
+```
+#include "main.h"
 
 TIM_HandleTypeDef htim2;
 
@@ -206,7 +207,8 @@ void Error_Handler(void)
  <img width="1025" height="508" alt="image" src="https://github.com/user-attachments/assets/9a0e5fc3-9f50-465c-9bd6-1818fdd26bbc" />
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-```TON = 3 x 10 x 10^-6
+```
+TON = 3 x 10 x 10^-6
     = 0.00003
 TOFF=0.00003
 TOTAL TIME = TON + TOFF
@@ -225,7 +227,8 @@ DUTY CYCLE = TON /(TON+TOFF)
 FOR PULSE AT 700
 <img width="1021" height="508" alt="image" src="https://github.com/user-attachments/assets/839395cf-da64-469e-a767-1fa1029141e5" />
 
-```TON = 4 x 10 x 10^-6
+```
+TON = 4 x 10 x 10^-6
     = 0.00004
 TOFF= 2 x 10 x 10^-6
     = 0.00002
@@ -244,7 +247,8 @@ DUTY CYCLE = TON /(TON+TOFF)
 FOR PULSE AT 900
 <img width="1030" height="492" alt="image" src="https://github.com/user-attachments/assets/dc5908a8-5060-47f7-a300-256d3696b87d" />
 
-```TON = 1 x 50 x 10^-6
+```
+TON = 1 x 50 x 10^-6
     = 0.00005
 TOFF= 0.1 x 50 x 10^-6
     = 0.000005
