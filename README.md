@@ -243,28 +243,6 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.7*100 
            = 70 %
 ```
-     
-FOR PULSE AT 900
-<img width="1030" height="492" alt="image" src="https://github.com/user-attachments/assets/dc5908a8-5060-47f7-a300-256d3696b87d" />
-
-```
-TON = 1 x 50 x 10^-6
-    = 0.00005
-TOFF= 0.1 x 50 x 10^-6
-    = 0.000005
-TOTAL TIME = TON + TOFF
-           = 0.00005 + 0.000005
-           = 0.000055
-FREQUENCY = 1/(TOTAL TIME)
-          = 18181.82
-DUTY CYCLE = TON /(TON+TOFF)
-           = 0.00005/0.000055
-           = 0.9
-      IN % =0.9*100 
-           = 90 %
-```
-
-
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
